@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Extracto",
+  "version": "1.0",
+  "description": "Upload PDFs and insert their content into chatbot input boxes",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
