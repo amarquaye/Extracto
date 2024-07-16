@@ -2,11 +2,26 @@
   "manifest_version": 3,
   "name": "Extracto",
   "version": "1.0",
-  "description": "Upload PDFs and insert their content into chatbot input boxes",
+  "description": "Automates PDF content extraction and integration with LLM chatbots for efficient document-based querying.",
+  "author": {
+    "name": "Jesse Amarquaye",
+    "email": "engineeramarquaye@gmail.com",
+    "url": "https://github.com/amarquaye/extracto"
+  },
   "permissions": ["activeTab", "scripting"],
   "host_permissions": ["https://chatgpt.com/*"],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "img/icons/icon16.png",
+      "48": "img/icons/icon48.png",
+      "128": "img/icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "img/icons/icon16.png",
+    "48": "img/icons/icon48.png",
+    "128": "img/icons/icon128.png"
   },
   "content_scripts": [
     {
