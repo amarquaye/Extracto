@@ -1,11 +1,6 @@
-<!-- ![Extracto Logo](img/logo.png) -->
-
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/amarquaye/extracto)](https://github.com/amarquaye/extracto/releases)
-[![GitHub license](https://img.shields.io/github/license/amarquaye/extracto)](https://github.com/amarquaye/extracto/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/amarquaye/extracto)](https://github.com/amarquaye/extracto/issues)
-[![GitHub stars](https://img.shields.io/github/stars/amarquaye/extracto)](https://github.com/amarquaye/extracto/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/amarquaye/extracto)](https://github.com/amarquaye/extracto/network)
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Famarquaye%2Fextracto)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Famarquaye%2Fextracto)
+<p align="center">
+  <img src="img/banner.jpg" alt="Extracto Banner" width="100%" height="120">
+</p>
 
 ## 📚 Table of Contents
 
@@ -74,10 +69,13 @@ extracto/
 │   ├── pdf.mjs
 │   └── pdf.worker.mjs
 │
-└── icons/
-├── icon16.png
-├── icon48.png
-├── icon128.png
+├── img/
+│   ├── banner.jpg
+│   ├── banner.svg
+│   └── icons/
+│       ├── icon16.png
+│       ├── icon48.png
+│       └── icon128.png
 │
 └── README.md
 ```
